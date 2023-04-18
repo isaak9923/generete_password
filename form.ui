@@ -24,7 +24,7 @@
     <normaloff>D:/The Last of Us Part I/crs-prompt-logo.png</normaloff>D:/The Last of Us Part I/crs-prompt-logo.png</iconset>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(201, 250, 255);
+   <string notr="true">background-color: rgb(200, 0, 255);
 background-color: rgb(153, 245, 255);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -41,7 +41,7 @@ background-color: rgb(153, 245, 255);</string>
      <string notr="true">color: rgb(0, 255, 255);
 font: 14pt &quot;MS Shell Dlg 2&quot;;
 font: 12pt &quot;MS Shell Dlg 2&quot;;
-background-color: rgb(238, 102, 255);</string>
+background-color: rgb(200, 0, 255);</string>
     </property>
     <property name="text">
      <string>Сгенерировать</string>
