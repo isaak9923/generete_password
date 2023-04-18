@@ -25,7 +25,7 @@ class App(QMainWindow):
         data = []
         for elem in range(self.coun_pass.value()):
             data.append(''.join(choices(line, k=self.count_symbols.value())))
-        fname = QFileDialog.getSaveFileName(self, 'Сохранить', '/passwords.txt')[0]
+        fname = QFileDialog.getSaveFileName(self, 'СЕЙВ', '/passwords.txt')[0]
         with open(fname, 'w') as f:
             for elem in data:
                 f.write(elem)
